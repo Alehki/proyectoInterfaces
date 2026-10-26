@@ -1,0 +1,128 @@
+[
+  {
+    "id": 2003,
+    "nombre": "Impermeable Azul",
+    "categoria": "Impermeables",
+    "descripcion": "Campera impermeable 2 patas con cierre y capucha",
+    "precio": 28000,
+    "stock": 5,
+    "imagenes": ["/img/2003.jpeg"]
+  },
+  {
+    "id": 2004,
+    "nombre": "Chaleco Rosa",
+    "categoria": "Impermeables",
+    "descripcion": "Chaleco 2 patas impermeable frizado con cierre trasero",
+    "precio": 22000,
+    "stock": 0,
+    "imagenes": ["/img/2004.jpeg"]
+  },
+  {
+    "id": 2131,
+    "nombre": "Enterito polar",
+    "categoria": "Abrigos",
+    "descripcion": "Super calentito. Enterito de polar 4 patas con cierre delantero",
+    "precio": 32000,
+    "stock": 12,
+    "imagenes": ["/img/2131.jpeg"]
+  },
+  {
+    "id": 2305,
+    "nombre": "Chaleco puffer dorado",
+    "categoria": "Impermeables",
+    "descripcion": "Chaleco impermeable dorado con cierre trasero",
+    "precio": 18500,
+    "stock": 8,
+    "imagenes": ["/img/2305.jpeg"]
+  },
+  {
+    "id": 2249,
+    "nombre": "Buzo polar",
+    "categoria": "Abrigos",
+    "descripcion": "Buzo polar 2 patas color rosa con cierre trasero",
+    "precio": 25000,
+    "stock": 3,
+    "imagenes": ["/img/2249.jpeg"]
+  },
+  {
+    "id": 2219,
+    "nombre": "Chaleco camuflaje",
+    "categoria": "Abrigos",
+    "descripcion": "Chaleco camuflaje Azul con botones delanteros",
+    "precio": 20800,
+    "stock": 4,
+    "imagenes": ["/img/2219.jpeg"]
+  },
+  {
+    "id": 2554,
+    "nombre": "Sudadera gris",
+    "categoria": "Abrigos",
+    "descripcion": "Buzo gris de algodón. Sin cierres, muy elastizado.",
+    "precio": 22500,
+    "stock": 15,
+    "imagenes": ["/img/2554.jpeg"]
+  },
+  {
+    "id": 2611,
+    "nombre": "Campera escocesa",
+    "categoria": "Abrigos",
+    "descripcion": "Campera escocesa con cuello, puños e interior de polar. Cierre delantero",
+    "precio": 37500,
+    "stock": 0,
+    "imagenes": ["/img/2611.jpeg"]
+  },
+  {
+    "id": 2609,
+    "nombre": "Buzo ¿Qué mirás?",
+    "categoria": "Abrigos",
+    "descripcion": "Buzo de algodón con cierre delantero, capucha y estampa en espalda",
+    "precio": 24500,
+    "stock": 20,
+    "imagenes": ["/img/2609.jpeg"]
+  },
+  {
+    "id": 3204,
+    "nombre": "Collar con púas",
+    "categoria": "Collares / Correas",
+    "descripcion": "Collar de púas una hilera. 5 cm de ancho, 12 a 18 cm de circunferencia",
+    "precio": 12800,
+    "stock": 2,
+    "imagenes": ["/img/3204.jpg"]
+  },
+  {
+    "id": 3203,
+    "nombre": "Collar Rocker",
+    "categoria": "Collares / Correas",
+    "descripcion": "Collar de púas de 3 hileras, 7 cm de ancho, 15 a 20 cm de circunferencia ",
+    "precio": 14000,
+    "stock": 10,
+    "imagenes": ["/img/3203.jpg"]
+  },
+  {
+    "id": 3201,
+    "nombre": "Arnés Anti-Tirones",
+    "categoria": "Collares / Correas",
+    "descripcion": "Arnés de pecho de neoprene",
+    "precio": 22500,
+    "stock": 6,
+    "imagenes": ["/img/3201.jpg"]
+  },
+    {
+    "id": 3205,
+    "nombre": "Correa Extensible",
+    "categoria": "Collares / Correas",
+    "descripcion": "Correa extensible hasta 5,5 mts",
+    "precio": 30000,
+    "stock": 6,
+    "imagenes": ["/img/3205.jpg"]
+  },
+  {
+    "id": 3206,
+    "nombre": "Bolso transportador deluxe",
+    "categoria": "Bolsos",
+    "descripcion": "Bolso transportador XL con interior impermeable y manijas reforzadas. Llevalo con vos a todos lados.",
+    "precio": 85000,
+    "stock": 6,
+    "imagenes": ["/img/3206.jpg"]
+  }
+]
