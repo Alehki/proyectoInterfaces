@@ -11,7 +11,7 @@ function NavBar({ totalProductos, temaOscuro, toggleTema }) {
         <Navbar 
             data-bs-theme={temaOscuro ? "dark" : "light"}
             expand="lg" 
-            className={`${styles.navbar} shadow-sm sticky-top`}
+            className={`${styles.navbar} bg-body-tertiary shadow-sm sticky-top`}
         >
             <Container fluid className="px-5">
                 <Navbar.Brand as={Link} to="/" className={styles.brand}>
