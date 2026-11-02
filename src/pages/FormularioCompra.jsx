@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Col, Row, Card, Modal, Button, Form, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import style from "./formulario.module.css";
 
 function FormularioCompra({ carrito, eliminarProducto, vaciarCarrito }) {
     const [mostrarModal, setMostrarModal] = useState(false);
@@ -33,7 +32,7 @@ function FormularioCompra({ carrito, eliminarProducto, vaciarCarrito }) {
 
     return (
         <Container className="my-5" style={{ minHeight: "70vh" }}>
-            <h2 className={`${style.title} mb-4 fw-bold text-center`}>Checkout / Formulario de Compra</h2>
+            <h2 className="mb-4 fw-bold text-center">Ya casi está todo listo</h2>
             
             <Row className="g-5">
                 {/* Columna del Formulario */}

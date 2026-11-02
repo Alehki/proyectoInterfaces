@@ -30,7 +30,7 @@ function Contacto() {
     <Container className="my-5" style={{ minHeight: "70vh" }}>
       <div className="text-center mb-5">
         <h2 className="fw-bold display-6">Contacto</h2>
-        <p className="text-muted">¿Tenés alguna duda sobre talles, envíos o ventas mayoristas? Escribinos.</p>
+        <p className="text-muted">¿Tenés alguna duda sobre talles, envíos o ventas mayoristas?</p>
       </div>
 
       <Row className="g-5 justify-content-center">
@@ -38,7 +38,7 @@ function Contacto() {
         <Col lg={7}>
           <Card className="shadow-sm border-0 p-4">
             {enviado ? (
-              <div className="text-center py-5">
+              <div className="text-center py-">
                 <i className="bi bi-check-circle-fill text-success display-3 mb-3"></i>
                 <h4 className="fw-bold">¡Mensaje enviado con éxito!</h4>
                 <p className="text-muted">Gracias por contactarte con nosotros. Te responderemos a la brevedad.</p>
@@ -49,29 +49,27 @@ function Contacto() {
             ) : (
               <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="contactoNombre">
-                  <Form.Label className="fw-semibold">Nombre y Apellido</Form.Label>
+                  <p className="fw-semibold">Tus Datos</p>
                   <Form.Control 
                     type="text" 
                     name="nombre"
-                    placeholder="Ej: Juan Pérez" 
+                    placeholder="Nombre" 
                     value={formData.nombre}
                     onChange={handleChange}
                   />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="contactoEmail">
-                  <Form.Label className="fw-semibold">Correo Electrónico</Form.Label>
                   <Form.Control 
                     type="email5" 
                     name="email"
-                    placeholder="tucorreo@ejemplo.com" 
+                    placeholder="Correo Electronico" 
                     value={formData.email}
                     onChange={handleChange}
                   />
                 </Form.Group>
 
                 <Form.Group className="mb-4" controlId="contactoMensaje">
-                  <Form.Label className="fw-semibold">Mensaje</Form.Label>
                   <Form.Control 
                     as="textarea" 
                     rows={4} 
@@ -99,10 +97,10 @@ function Contacto() {
                 <i className="bi bi-geo-alt-fill text-danger fs-5"></i> Buenos Aires, Argentina
               </p>
               <p className="text-muted small mb-2 d-flex align-items-center gap-2">
-                <i className="bi bi-envelope-fill text-danger fs-5"></i> contacto@pawsandstyle.com
+                <i className="bi bi-envelope-fill text-danger fs-5"></i> contacto@MultiShop.com
               </p>
               <p className="text-muted small mb-0 d-flex align-items-center gap-2">
-                <i className="bi bi-whatsapp text-danger fs-5"></i> +54 11 1234-5678
+                <i className="bi bi-whatsapp text-danger fs-5"></i> +54 11 3434-3434
               </p>
             </Card>
 

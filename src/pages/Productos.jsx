@@ -63,7 +63,7 @@ function Productos({ agregarAlCarrito, carrito }) {
         <Spinner animation="border" role="status" variant="primary" style={{ width: '3rem', height: '3rem' }}>
           <span className="visually-hidden">Cargando...</span>
         </Spinner>
-        <p className="mt-3 text-muted fw-semibold">Cargando catálogo de Paws & Style...</p>
+        <p className="mt-3 text-muted fw-semibold">Cargando catálogo de MultiShop...</p>
       </Container>
     );
   }

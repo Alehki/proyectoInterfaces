@@ -18,8 +18,6 @@ function Carrito({
 
   return (
     <Container className="my-5" style={{ minHeight: '70vh' }}>
-      <h2 className="mb-4 fw-bold">Carrito de Compras 🛒</h2>
-
       {carrito.length === 0 ? (
         <div className="text-center py-5">
           <i className="bi bi-cartX display-1 text-muted mb-3"></i>

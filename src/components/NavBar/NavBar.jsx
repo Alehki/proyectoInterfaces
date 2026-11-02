@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import { Link, NavLink } from "react-router-dom";
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 import styles from './navbar.module.css'; 
 
 function NavBar({ totalProductos, temaOscuro, toggleTema }) {
@@ -38,6 +38,10 @@ function NavBar({ totalProductos, temaOscuro, toggleTema }) {
                                     {totalProductos}
                                 </span>
                             )}
+                        </Nav.Link>
+
+                        <Nav.Link className={styles.navLink} as={NavLink} to="/contacto">
+                            Contactos
                         </Nav.Link>
 
                         <Button

@@ -9,13 +9,13 @@ function CardInicio() {
       <Card className='m-4 shadow-sm border-0'>
         <Card.Body className="p-5 text-center">
           <Card.Title className="fw-bold display-6 mb-3 text-body">
-            Bienvenidos a Paws & Style 🐾
+            Bienvenidos a MultiShop
           </Card.Title>
           <Card.Text className={`${styles.description} text-muted fs-5 mb-3`}>
-            Fábrica de diseño de ropa para mascotas con 17 años de trayectoria. Creamos prendas con identidad propia, pensadas para vestir perros de todos los talles, razas y estilos.
+            Tu tienda multirrubro online. Encontrá las últimas tendencias en moda, tecnología, accesorios y mucho más en un solo lugar.
           </Card.Text>
           <Card.Text className={`${styles.description} text-muted mb-4`}>
-            Diseños originales, excelente calce y colecciones que rotan durante todo el año.
+            Variedad, calidad y las mejores ofertas con envíos rápidos y seguros para vos.
           </Card.Text>
           <div>
             <Button 

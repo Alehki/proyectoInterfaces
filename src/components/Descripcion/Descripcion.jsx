@@ -8,37 +8,37 @@ function Descripcion() {
     <section className='py-5 bg-body-tertiary'>
       <Container>
         <h2 className='text-center mb-4 fw-bold'>
-          Sobre Paws & Style
+          Sobre MultiShop
         </h2>
-        <p className='lead text-center text-muted mb-4'>
-          Paws & Style es una marca líder en diseño de indumentaria y accesorios para mascotas con 17 años de trayectoria.
+        <p className='lead text-center text-muted mb-5'>
+          MultiShop es tu tienda multirrubro online de confianza, diseñada para ofrecerte variedad, calidad y las mejores tendencias en un solo lugar.
         </p>
 
         <Row className="g-4 text-center">
           <Col md={4}>
             <div className="p-3">
-              <i className="bi bi-award fs-1 text-danger mb-3"></i>
-              <h4 className="fw-bold h5">Trayectoria y Calidad</h4>
+              <i className="bi bi-box-seam fs-1 text-danger mb-3"></i>
+              <h4 className="fw-bold h5">Gran Variedad</h4>
               <p className="text-muted small">
-                Colecciones completas para invierno, verano y ocasiones especiales, trabajando con distintos talles y texturas premium.
+                Un catálogo amplio y surtido que incluye moda, tecnología, accesorios y mucho más para cubrir todas tus necesidades.
               </p>
             </div>
           </Col>
           <Col md={4}>
             <div className="p-3">
-              <i className="bi bi-stars fs-1 text-danger mb-3"></i>
-              <h4 className="fw-bold h5">Diseños Originales</h4>
+              <i className="bi bi-shield-check fs-1 text-danger mb-3"></i>
+              <h4 className="fw-bold h5">Calidad Garantizada</h4>
               <p className="text-muted small">
-                Prendas con identidad propia pensadas para vestir mascotas de todas las razas y estilos, buscando resaltar su personalidad.
+                Seleccionamos cada producto cuidadosamente para asegurarnos de que recibas la mejor durabilidad y rendimiento.
               </p>
             </div>
           </Col>
           <Col md={4}>
             <div className="p-3">
-              <i className="bi bi-graph-up-arrow fs-1 text-danger mb-3"></i>
-              <h4 className="fw-bold h5">Rotación Comercial</h4>
+              <i className="bi bi-truck fs-1 text-danger mb-3"></i>
+              <h4 className="fw-bold h5">Envíos Rápidos</h4>
               <p className="text-muted small">
-                Diseños dinámicos y colecciones que rotan durante todo el año garantizando una excelente rotación en el mercado.
+                Logística ágil y segura para que tus compras lleguen a la puerta de tu casa en el menor tiempo posible.
               </p>
             </div>
           </Col>

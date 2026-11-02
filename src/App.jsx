@@ -104,6 +104,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Inicio />} />
+
+        <Route path="/tuhermana" element={<Contacto />} ></Route>
         <Route
           path="/productos"
           element={
@@ -156,10 +158,10 @@ function App() {
           bg="success" 
         >
           <ToastHeader closeButton>
-            <strong className="me-auto">Market Go</strong>
+            <strong className="me-auto">MultiShop</strong>
           </ToastHeader>
           <Toast.Body className="text-white fw-bold">
-            ¡Producto agregado al carrito! 🛒
+            ¡Producto agregado al carrito!
           </Toast.Body>
         </Toast>
       </ToastContainer>
