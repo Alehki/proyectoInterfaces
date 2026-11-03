@@ -2,7 +2,6 @@ import { Card, Button, Badge } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ProductoCard = ({ producto, agregarAlCarrito, carrito }) => {
-    // Adaptamos las propiedades de FakeStore API (y mantenemos respaldos por si usas algo local)
     const { id, title, price, image, category } = producto;
     
     // Como FakeStore no trae stock, le asignamos un stock simulado de 10 unidades

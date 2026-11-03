@@ -23,7 +23,6 @@ function Contacto() {
       return;
     }
     setEnviado(true);
-    // Acá podrías conectar tu lógica de envío si lo deseas
   };
 
   return (

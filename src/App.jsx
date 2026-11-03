@@ -99,13 +99,11 @@ function App() {
         totalProductos={totalProductos}
         temaOscuro={temaOscuro}
         toggleTema={toggleTema} 
-        data-bs-theme={temaOscuro ? "dark" : "light"}
       />
 
       <Routes>
         <Route path="/" element={<Inicio />} />
 
-        <Route path="/tuhermana" element={<Contacto />} ></Route>
         <Route
           path="/productos"
           element={
